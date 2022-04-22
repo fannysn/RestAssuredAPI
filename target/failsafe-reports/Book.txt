@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: Book
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 249.867 s <<< FAILURE! - in Book
+Book.Add ISBN to user  Time elapsed: 3.621 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path result doesn't match.
+Expected: User Authorized Successfully.
+  Actual: User authorized successfully.
+
+
+Book.Delete ISBN from user  Time elapsed: 122.164 s  <<< ERROR!
+net.serenitybdd.core.exceptions.SerenityManagedException: 
+1 expectation failed.
+Expected status code <204> but was <504>.
+
+

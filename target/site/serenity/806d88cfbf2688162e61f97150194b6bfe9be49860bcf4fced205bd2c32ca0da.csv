@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Book","Add ISBN to user","FAILURE","2022-04-22T16:23:17.004482+07:00[Asia/Bangkok]","0.0","4.03"
+"Book","Delete ISBN from user","FAILURE","2022-04-22T16:23:21.6941374+07:00[Asia/Bangkok]","0.0","121.77"

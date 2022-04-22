@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="Book" skipped="0" tests="3" time="236.55" timestamp="2022-04-22 04:21:26"><testcase name="Get list book"/><testcase name="Add ISBN to user"><failure message="1 expectation failed.&#10;JSON path result doesn't match.&#10;Expected: User Authorized Successfully.&#10;  Actual: User authorized successfully.&#10;" type="java.lang.AssertionError">1 expectation failed.
+JSON path result doesn't match.
+Expected: User Authorized Successfully.
+  Actual: User authorized successfully.
+</failure><system-err>1 expectation failed.
+JSON path result doesn't match.
+Expected: User Authorized Successfully.
+  Actual: User authorized successfully.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)&#13;
+io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)&#13;
+io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)&#13;
+io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)&#13;
+TaskRestApi@1.0-SNAPSHOT/Starter.UserAccount.PostGenerateToken.validateDataDetailGenerateToken(PostGenerateToken.java:41)&#13;
+TaskRestApi@1.0-SNAPSHOT/Starter.StepDefinitions.GetBookStep.iAmDoingLogin(GetBookStep.java:48)&#13;
+✽.I am doing login(file:///C:/Users/User/IdeaProjects/TaskRestApi/src/test/resources/02_Book/Book.feature:10)&#13;
+</system-err></testcase><testcase name="Delete ISBN from user"><failure message="1 expectation failed.&#10;Expected status code &lt;204&gt; but was &lt;504&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;204&gt; but was &lt;504&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;204&gt; but was &lt;504&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:84)&#13;
+io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)&#13;
+io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:136)&#13;
+io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)&#13;
+TaskRestApi@1.0-SNAPSHOT/Starter.Books.PostAddISBN.validateStatusCode(PostAddISBN.java:54)&#13;
+TaskRestApi@1.0-SNAPSHOT/Starter.StepDefinitions.AddISBNStep.iVerifyTheStatusCodeIs(AddISBNStep.java:28)&#13;
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
+io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)&#13;
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)&#13;
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)&#13;
+io.cucumber.core.runner.TestStep.run(TestStep.java:64)&#13;
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)&#13;
+io.cucumber.core.runner.TestCase.run(TestCase.java:104)&#13;
+io.cucumber.core.runner.Runner.runPickle(Runner.java:73)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)&#13;
+</system-err></testcase></testsuite>

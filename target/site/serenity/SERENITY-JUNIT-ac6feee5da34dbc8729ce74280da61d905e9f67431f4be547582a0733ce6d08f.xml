@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="3" name="User" skipped="0" tests="8" time="121.51" timestamp="2022-04-22 04:21:24"><testcase name="POST - As an admin I have to be able to create new user"><failure message="1 expectation failed.&#10;Expected status code &lt;406&gt; but was &lt;201&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;406&gt; but was &lt;201&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;406&gt; but was &lt;201&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)&#13;
+io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)&#13;
+io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)&#13;
+io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)&#13;
+TaskRestApi@1.0-SNAPSHOT/Starter.UserAccount.Get.validateStatusCode(Get.java:34)&#13;
+TaskRestApi@1.0-SNAPSHOT/Starter.StepDefinitions.UserStep.iValidateTheStatusCodeIs(UserStep.java:87)&#13;
+✽.I validate the status code is 406(file:///C:/Users/User/IdeaProjects/TaskRestApi/src/test/resources/01_User/User.feature:9)&#13;
+</system-err></testcase><testcase name="POST - As a user I have to be able to generate token"><failure message="1 expectation failed.&#10;JSON path result doesn't match.&#10;Expected: User Authorized Successfully.&#10;  Actual: User authorized successfully.&#10;" type="java.lang.AssertionError">1 expectation failed.
+JSON path result doesn't match.
+Expected: User Authorized Successfully.
+  Actual: User authorized successfully.
+</failure><system-err>1 expectation failed.
+JSON path result doesn't match.
+Expected: User Authorized Successfully.
+  Actual: User authorized successfully.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)&#13;
+io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)&#13;
+io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)&#13;
+io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)&#13;
+TaskRestApi@1.0-SNAPSHOT/Starter.UserAccount.PostGenerateToken.validateDataDetailGenerateToken(PostGenerateToken.java:41)&#13;
+TaskRestApi@1.0-SNAPSHOT/Starter.StepDefinitions.UserStep.validateTheDataDetailAfterGenerateToken(UserStep.java:77)&#13;
+✽.validate the data detail after generate token(file:///C:/Users/User/IdeaProjects/TaskRestApi/src/test/resources/01_User/User.feature:24)&#13;
+</system-err></testcase><testcase name="GET - As a user I have to be able to get detail user"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;401&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;401&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)&#13;
+io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)&#13;
+io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)&#13;
+io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)&#13;
+TaskRestApi@1.0-SNAPSHOT/Starter.UserAccount.Get.validateStatusCode(Get.java:34)&#13;
+TaskRestApi@1.0-SNAPSHOT/Starter.StepDefinitions.UserStep.iValidateTheStatusCodeIs(UserStep.java:87)&#13;
+✽.I validate the status code is 200(file:///C:/Users/User/IdeaProjects/TaskRestApi/src/test/resources/01_User/User.feature:30)&#13;
+</system-err></testcase><testcase name="GET - As a user I have to authorized myself"/></testsuite>

@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"User","POST - As an admin I have to be able to create new user","FAILURE","2022-04-22T16:21:24.5753681+07:00[Asia/Bangkok]","0.0","118.92"
+"User","POST - As a user I have to be able to generate token","FAILURE","2022-04-22T16:23:23.5106907+07:00[Asia/Bangkok]","0.0","0.88"
+"User","GET - As a user I have to be able to get detail user","FAILURE","2022-04-22T16:23:24.4169741+07:00[Asia/Bangkok]","0.0","0.92"
+"Book","Add ISBN to user","FAILURE","2022-04-22T16:23:17.004482+07:00[Asia/Bangkok]","0.0","4.03"
+"Book","Delete ISBN from user","FAILURE","2022-04-22T16:23:21.6941374+07:00[Asia/Bangkok]","0.0","121.77"

@@ -1,0 +1,14 @@
+Utils\General.class
+Starter\StepDefinitions\AddISBNStep.class
+Starter\StepDefinitions\UserStep.class
+Starter\StepDefinitions\DeleteISBNStep.class
+Starter\StepDefinitions\GetBookStep.class
+Starter\UserAccount\PostGenerateToken.class
+Starter\StepDefinitions\BookStep.class
+Starter\UserAccount\Post.class
+Starter\Books\GetListBook.class
+Starter\Books\PostAddISBN.class
+CucumberTestSuite.class
+Starter\Books\DeleteISBN.class
+Starter\UserAccount\Get.class
+Starter\UserAccount\PostAuth.class

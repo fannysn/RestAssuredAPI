@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: User
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 132.6 s <<< FAILURE! - in User
+User.POST - As an admin I have to be able to create new user #5  Time elapsed: 0.844 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <406> but was <201>.
+
+
+User.POST - As a user I have to be able to generate token  Time elapsed: 0.875 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path result doesn't match.
+Expected: User Authorized Successfully.
+  Actual: User authorized successfully.
+
+
+User.GET - As a user I have to be able to get detail user  Time elapsed: 0.953 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <401>.
+
+
